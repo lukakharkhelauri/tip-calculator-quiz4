@@ -1,0 +1,139 @@
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    width: 45%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .tip-options,
+  .people-options {
+    width: 48%;
+  }
+  
+  .tip-percentages {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .tip-percentages div {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .right-section {
+    background-color: rgb(0, 100, 92);
+    margin-left:30px;
+    width: 45%;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+  .tip-percentages {
+    display: flex;
+    gap: 10px;
+    margin-bottom:10px;
+  }
+  
+  .tip-percentages button {
+    background-color: #c5e4e7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tip-percentages button:hover {
+    background-color: #2980b9;
+  }
+  input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #billInput {
+    width: 100%;
+  }
+  
+  .numberOfPeople {
+    width: 100%;
+  }
+  
+  .buttons-row button {
+    padding: 10px 15px;
+  }
+  
+  .left-section > * {
+    margin-bottom: 10px;
+  }
+
+  .reset-button {
+    max-width: 500px; 
+    margin-top:100px;
+  }
+  
+  .reset-button button {
+    background-color: #9fe8df;
+    color: #003d3a;
+    width: 100%;
+    border-radius:5px;
+    padding: 10px; 
+    border: none;
+    cursor: pointer;
+  }
+
+  h2{
+   color:#31b8a7
+  }
+
+  .right-section{
+    margin-left:60px;
+  }
+  
+  button{
+    background-color: #9fe8df;
+    color: #003d3a;
+    width: 100%;
+    border-radius:5px;
+    padding: 10px; 
+    border: none;
+    cursor: pointer;
+  }
